@@ -35,6 +35,7 @@
 
   .calendar__journal{
     display: flex;
+    border-block: inherit;
     flex-direction: column;
   }
   
@@ -51,6 +52,7 @@
   }
   
 .entry__sentiment{
+    margin: .5rem 0 ;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -60,7 +62,22 @@
   .calendar {
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .refresh-button button{
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(11, 16, 108);
+    color: white;
+    border-radius: .2rem;
+  }
+
+  .refresh-button button:hover{
+    transition: 200ms;
+    background-color: black;
+    color: white;
   }
   
   .calendar__content {
@@ -93,3 +110,5 @@
   .gen-form textarea {
     width: 100%!important;
   }
+
+ 

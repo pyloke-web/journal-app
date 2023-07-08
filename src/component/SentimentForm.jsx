@@ -85,7 +85,7 @@ const SentimentAnalysisComponent = () => {
       </div>
       <div className="information">
         <div className="information__content">
-          <p>Hello, world! This a unique free AI-supported journal that automatically detect sentiments for each journal entry. </p>
+          <p>Hello, this a free AI journal that automatically detect sentiments for each journal entry. View demo <a href='https://www.loom.com/share/ad1832dfc4f94b89b59bb591afc32931?sid=fdfeb16c-789b-4b3a-8ee8-c252f3d89034'>here</a></p>
           <p>Note: the current app functions as a demo to explore the opportunities of AI in mental health and should not be interpreted as actual means for psychological aid. Please do not disclose any sensitive or personally identifiable information. All data shall automatically be deleted after 7 days. By using the app, you agree to our terms.</p>
         </div>
       </div>
@@ -94,7 +94,7 @@ const SentimentAnalysisComponent = () => {
           <form className="gen-form" onSubmit={handleSubmit}>
             <div className="token__date">
               <div className="token">
-                <p>Nickname (Use the same nickname for each log)</p>
+                <p>Nickname</p>
                 <input
                   className="api__token"
                   type="text"

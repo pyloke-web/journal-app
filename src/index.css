@@ -68,7 +68,6 @@ code {
 
 .token__date {
   display: flex;
-  gap: auto;
   align-items: center;
   justify-content: space-between;
 }
@@ -108,14 +107,19 @@ code {
   width: 100%;
 }
 
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
 .gen-form {
   padding-top: 1rem;
 }
 
 .gen-form p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 23px;
-  margin-top: 1rem;
+  margin-top: .3rem;
 }
 
 .gen-form input {
@@ -128,7 +132,7 @@ code {
   margin: .3rem 0;
   display: flex;
   justify-content: center;  
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .gen-form textarea {
@@ -143,6 +147,7 @@ code {
   width: 70%;
   height: 15rem!important;
   font-family: 'Roboto';
+  margin-top: .3rem;
 }
 
 .gen-form button{
@@ -167,4 +172,34 @@ code {
 
 .result {
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    padding-top: 1rem;
+    width:var(--container-width-lg);
+    margin-inline: auto;
+  }  
+    
+  h1 {
+      line-height: 2.2rem;
+      font-size: 2rem;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .information__content{
+    margin-top: 1rem;
+  }
+
+  .section{
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  
+
 }
