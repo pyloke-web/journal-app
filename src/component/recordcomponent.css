@@ -1,0 +1,95 @@
+.react-calendar {
+    border-radius: .2rem;
+    width:100%;
+}
+
+.react-calendar__viewContainer {
+  line-height: .4rem;
+}
+
+.react-calendar__navigation{
+    background-color: rgb(226, 226, 226);
+    border-radius: .2rem .2rem 0 0;
+}
+
+.section {
+    display: grid!important;
+    gap: 1rem;
+    grid-template-columns: 1fr .7fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 2rem;
+}
+
+.react-calendar__tile--now {
+    background-color:  rgb(237, 237, 237);
+}
+
+.score-bar {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 1.5rem;
+  }
+
+  .calendar__journal{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .score-bar__positive {
+    background-color: rgb(126, 181, 126);
+  }
+  
+  .score-bar__neutral {
+    background-color: lightgray;
+  }
+  
+  .score-bar__negative {
+    background-color: rgb(226, 179, 93);
+  }
+  
+.entry__sentiment{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+  .calendar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .calendar__content {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: .2rem;
+    width: 100%;
+  }
+  
+  .calendar__journal {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .calendar__journal p{
+    font-size: 16px;  
+  }
+
+  .recordID {
+    margin: 0.5rem 0;
+  }
+  
+  
+  hr {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .gen-form textarea {
+    width: 100%!important;
+  }

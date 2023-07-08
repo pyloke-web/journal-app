@@ -1,0 +1,169 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+:root{
+
+  --container-width-lg: 95%;
+  --container-width-md: 90%;
+
+  --transition: all 500ms ease;
+}
+
+
+/* GENERAL STYLES*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-gray-200);
+  line-height: 16px;
+  overflow-x: hidden;
+  background-color: var(--color-gray-600);
+}
+
+.container{
+  width:var(--container-width-lg);
+  max-width: 1920px;
+  height: 100vh;
+  margin-inline: auto;
+}
+
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.8;
+  color: var(--color-gray-100);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+
+p {
+  font-size: 15px;
+  line-height: 1.1rem;
+}
+
+.title {
+  padding-top: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.token__date {
+  display: flex;
+  gap: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.token {
+  display: flex ;
+  flex-direction: column;
+}
+
+.token input {
+  width: 100%;
+}
+
+.text__input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.date input {
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+}
+
+.information{
+  text-align: -webkit-center;
+  display: inline;
+  width: 85%;
+}
+
+.information__content {
+  width: 100%;
+}
+
+.gen-form {
+  padding-top: 1rem;
+}
+
+.gen-form p {
+  font-size: 15px;
+}
+
+.gen-form input {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: #dad9d9!important;
+  border-radius: .2rem;
+  border-width: .01rem;
+  padding: 1rem;
+  margin: .3rem 0;
+  display: flex;
+  justify-content: center;  
+  height: 2rem;
+}
+
+.gen-form textarea {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: #dad9d9!important;
+  border-radius: .2rem;
+  border-width: .01rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 15rem!important;
+  font-family: 'Roboto';
+}
+
+.gen-form button{
+  background-color: rgb(11, 16, 108);
+  padding: .5rem 2rem;
+  border-radius: .2rem;
+  color: white;
+  transition: 200ms;
+  width: 100%;
+}
+
+.button__submit {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.gen-form button:hover {
+  background-color: black;
+  border-color:rgb(0, 0, 0); 
+}
+
+.result {
+  text-align: center;
+}
