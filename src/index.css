@@ -133,6 +133,7 @@ a {
   display: flex;
   justify-content: center;  
   height: 2.5rem;
+  font-size: 15px;
 }
 
 .gen-form textarea {
@@ -148,6 +149,7 @@ a {
   height: 15rem!important;
   font-family: 'Roboto';
   margin-top: .3rem;
+  font-size: 15px;
 }
 
 .gen-form button{
