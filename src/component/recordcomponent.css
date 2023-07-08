@@ -17,7 +17,7 @@
     gap: 1rem;
     grid-template-columns: 1fr .7fr;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     justify-items: center;
     padding-top: 2rem;
 }

@@ -31,7 +31,6 @@ body{
 .container{
   width:var(--container-width-lg);
   max-width: 1920px;
-  height: 100vh;
   margin-inline: auto;
 }
 
@@ -42,7 +41,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -51,8 +50,8 @@ h2 {
 
 
 p {
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .title {
@@ -115,6 +114,8 @@ code {
 
 .gen-form p {
   font-size: 15px;
+  line-height: 23px;
+  margin-top: 1rem;
 }
 
 .gen-form input {
