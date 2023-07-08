@@ -124,8 +124,7 @@ a {
 
 .gen-form input {
   background-color: rgb(255, 255, 255);
-  border: solid;
-  border-color: #dad9d9!important;
+  border: 1px solid rgb(159, 159, 159)!important;
   border-radius: .2rem;
   border-width: .01rem;
   padding: 1rem;
@@ -138,8 +137,7 @@ a {
 
 .gen-form textarea {
   background-color: rgb(255, 255, 255);
-  border: solid;
-  border-color: #dad9d9!important;
+  border: 1px solid rgb(159, 159, 159)!important;
   border-radius: .2rem;
   border-width: .01rem;
   padding: 1rem 2rem;
