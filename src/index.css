@@ -159,6 +159,7 @@ a {
   color: white;
   transition: 200ms;
   width: 100%;
+  font-size: 15px;
 }
 
 .button__submit {
