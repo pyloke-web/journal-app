@@ -14,4 +14,4 @@ View demo [here](https://www.loom.com/share/ad1832dfc4f94b89b59bb591afc32931?sid
 ## Miscellaneous 
 This web app was built and optimised for computer and mobile version only.The current version did not use timestamps to log journals to allow flexible usage as a demo version of the app.
 
-_Technologies used: REACT, airtable (database), [huggingface](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment')_
+_Technologies used: REACT, airtable (database), huggingface roBERTa-base model ([Barbieri et al.,2020](https://aclanthology.org/2020.findings-emnlp.148/))_
