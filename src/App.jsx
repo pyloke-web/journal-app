@@ -1,9 +1,12 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/home/Home'
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
+    <>
     <Home/>
+    <Analytics/>
+    </>
   )
 }
 
